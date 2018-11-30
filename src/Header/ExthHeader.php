@@ -1,9 +1,9 @@
 <?php
 
-namespace Choccybiccy\Mobi\Header;
+namespace Bagaskarawg\Mobi\Header;
 
-use Choccybiccy\Mobi\Exception\NoSuchRecordException;
-use Choccybiccy\Mobi\Header\Record\ExthRecord;
+use Bagaskarawg\Mobi\Exception\NoSuchRecordException;
+use Bagaskarawg\Mobi\Header\Record\ExthRecord;
 
 /**
  * Class ExthHeader.

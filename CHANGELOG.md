@@ -19,6 +19,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Parse .mobi files
 
-[Unreleased]: https://github.com/choccybiccy/mobi/compare/0.1.2...HEAD
-[0.1.2]: https://github.com/choccybiccy/mobi/compare/0.1.1...0.1.2
-[0.1.1]: https://github.com/choccybiccy/mobi/compare/0.1.0...0.1.1
+[Unreleased]: https://github.com/bagaskarawg/mobi/compare/0.1.2...HEAD
+[0.1.2]: https://github.com/bagaskarawg/mobi/compare/0.1.1...0.1.2
+[0.1.1]: https://github.com/bagaskarawg/mobi/compare/0.1.0...0.1.1

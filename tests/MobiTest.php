@@ -1,18 +1,18 @@
 <?php
 
-namespace Choccybiccy\Mobi;
+namespace Bagaskarawg\Mobi;
 
 /**
- * Class ReaderTest.
+ * Class MobiTest.
  */
-class ReaderTest extends \PHPUnit_Framework_TestCase
+class MobiTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Test construct.
      */
     public function testConstruct()
     {
-        $mobi = new Reader($this->getMobiPath());
+        $mobi = new Mobi($this->getMobiPath());
         $this->assertInstanceOf('\SplFileObject', $mobi->getFile());
     }
 
@@ -22,7 +22,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     public function testParse()
     {
         $methods = ['checkFormat', 'parsePalmDb', 'parsePalmDoc', 'parseMobiHeader', 'parseExth'];
-        $reader = $this->getMockReader($methods);
+        $reader = $this->getMockMobi($methods);
         foreach ($methods as $method) {
             $reader->expects($this->once())
                 ->method($method);
@@ -41,11 +41,11 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     /**
      * @param array|null $methods
      *
-     * @return \PHPUnit_Framework_MockObject_MockObject|Reader
+     * @return \PHPUnit_Framework_MockObject_MockObject|Mobi
      */
-    protected function getMockReader(array $methods = null)
+    protected function getMockMobi(array $methods = null)
     {
-        return $this->getMockBuilder(Reader::class)
+        return $this->getMockBuilder(Mobi::class)
             ->setMethods($methods)
             ->disableOriginalConstructor()
             ->getMock();

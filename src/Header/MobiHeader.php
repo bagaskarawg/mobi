@@ -1,6 +1,6 @@
 <?php
 
-namespace Choccybiccy\Mobi\Header;
+namespace Bagaskarawg\Mobi\Header;
 
 /**
  * Class MobiHeader.

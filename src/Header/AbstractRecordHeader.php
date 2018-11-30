@@ -1,8 +1,8 @@
 <?php
 
-namespace Choccybiccy\Mobi\Header;
+namespace Bagaskarawg\Mobi\Header;
 
-use Choccybiccy\Mobi\Header\Record\RecordInterface;
+use Bagaskarawg\Mobi\Header\Record\RecordInterface;
 
 /**
  * Class AbstractRecordHeader.

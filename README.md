@@ -3,29 +3,29 @@ Handle .mobi files with ease.
 
 ## Introduction
 This package was born out of frustration. There didn't seem to be a
-decent open source .mobi reader out there for PHP, so I wanted to 
+decent open source .mobi reader out there for PHP, so I wanted to
 create my own to give back to the community.
 
 ## Installation
 ```
-composer require choccybiccy/mobi
+composer require bagaskarawg/mobi
 ```
 
 ## Usage
 ### Reading .mobi files
 ```
-use Choccybiccy;
+use Bagaskarawg;
 
-$mobi = new Mobi\Reader('sherlock.mobi');
+$mobi = new Mobi\Mobi('sherlock.mobi');
 
 echo $mobi->getTitle(); # The Adventures of Sherlock Holmes by Doyle
 echo $mobi->getAuthor(); # Doyle, Arthur Conan, Sir, 1859-1930
 ```
 #### .mobi headers
 ```
-use Choccybiccy;
+use Bagaskarawg;
 
-$mobi = new Mobi\Reader('sherlock.mobi');
+$mobi = new Mobi\Mobi('sherlock.mobi');
 
 $palmDb = $mobi->getPalmDbHeader();
 $palmDoc = $mobi->getPalmDocHeader();
@@ -51,4 +51,5 @@ echo $exth->getRecordByType(Mobi\Header\ExthHeader::TYPE_PUBLISHER); # Mobipocke
 - [ ] Helper methods to get common attributes (title, author etc)
 
 ## Thanks
+* https://github.com/choccybiccy/mobi
 * http://wiki.mobileread.com/wiki/MOBI

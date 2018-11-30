@@ -1,8 +1,8 @@
 <?php
 
-namespace Choccybiccy\Mobi\Header;
+namespace Bagaskarawg\Mobi\Header;
 
-use Choccybiccy\Mobi\TestCase;
+use Bagaskarawg\Mobi\TestCase;
 
 /**
  * Class ExthHeaderTest.
@@ -37,7 +37,7 @@ class ExthHeaderTest extends TestCase
     /**
      * Test getRecordByType throws exception if record doesn't exist.
      *
-     * @expectedException \Choccybiccy\Mobi\Exception\NoSuchRecordException
+     * @expectedException \Bagaskarawg\Mobi\Exception\NoSuchRecordException
      */
     public function testGetRecordByTypeThrowsException()
     {
