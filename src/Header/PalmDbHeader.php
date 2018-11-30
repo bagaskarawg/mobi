@@ -1,8 +1,8 @@
 <?php
 
-namespace Choccybiccy\Mobi\Header;
+namespace Bagaskarawg\Mobi\Header;
 
-use Choccybiccy\Mobi\Header\Record\PalmRecord;
+use Bagaskarawg\Mobi\Header\Record\PalmRecord;
 
 /**
  * Class PalmDbHeader.

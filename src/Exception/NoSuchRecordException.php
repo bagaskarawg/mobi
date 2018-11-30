@@ -1,6 +1,6 @@
 <?php
 
-namespace Choccybiccy\Mobi\Exception;
+namespace Bagaskarawg\Mobi\Exception;
 
 /**
  * Class NoSuchRecordException.

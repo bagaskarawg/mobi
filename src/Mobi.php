@@ -1,19 +1,19 @@
 <?php
 
-namespace Choccybiccy\Mobi;
+namespace Bagaskarawg\Mobi;
 
-use Choccybiccy\Mobi\Exception\InvalidFormatException;
-use Choccybiccy\Mobi\Header\ExthHeader;
-use Choccybiccy\Mobi\Header\MobiHeader;
-use Choccybiccy\Mobi\Header\PalmDbHeader;
-use Choccybiccy\Mobi\Header\PalmDocHeader;
-use Choccybiccy\Mobi\Header\Record\ExthRecord;
-use Choccybiccy\Mobi\Header\Record\PalmRecord;
+use Bagaskarawg\Mobi\Exception\InvalidFormatException;
+use Bagaskarawg\Mobi\Header\ExthHeader;
+use Bagaskarawg\Mobi\Header\MobiHeader;
+use Bagaskarawg\Mobi\Header\PalmDbHeader;
+use Bagaskarawg\Mobi\Header\PalmDocHeader;
+use Bagaskarawg\Mobi\Header\Record\ExthRecord;
+use Bagaskarawg\Mobi\Header\Record\PalmRecord;
 
 /**
- * Class Reader.
+ * Mobi Mobi Class.
  */
-class Reader
+class Mobi
 {
     /**
      * @var \SplFileObject
@@ -61,7 +61,7 @@ class Reader
     protected $exthHeader;
 
     /**
-     * Reader constructor.
+     * Mobi constructor.
      *
      * @param string|\SplFileObject $file
      *

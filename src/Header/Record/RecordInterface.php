@@ -1,6 +1,6 @@
 <?php
 
-namespace Choccybiccy\Mobi\Header\Record;
+namespace Bagaskarawg\Mobi\Header\Record;
 
 /**
  * Interface RecordInterface.

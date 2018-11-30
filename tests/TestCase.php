@@ -1,8 +1,8 @@
 <?php
 
-namespace Choccybiccy\Mobi;
+namespace Bagaskarawg\Mobi;
 
-use Choccybiccy\Mobi\Header\Record\RecordInterface;
+use Bagaskarawg\Mobi\Header\Record\RecordInterface;
 
 /**
  * Class TestCase.
